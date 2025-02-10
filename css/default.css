@@ -114,3 +114,26 @@ body {
 #copyright a {
     color: #666
 }
+
+#playMusic {
+    font-size: 16px; /* 调整文字大小，与页面整体风格一致 */
+    font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif"; /* 使用代码字体，与页面代码部分保持一致 */
+    padding: 10px 20px; /* 按钮内边距 */
+    background-color: #fdc9d1; /* 与页面背景颜色一致 */
+    border: 2px solid #666; /* 使用深灰色边框，与页面文字颜色一致 */
+    border-radius: 5px; /* 按钮圆角 */
+    cursor: pointer; /* 鼠标悬停样式 */
+    margin: 20px 0; /* 按钮与上下内容的间距 */
+    display: block; /* 确保按钮独占一行 */
+    width: fit-content; /* 按钮宽度自适应内容 */
+  }
+  
+#playMusic:hover {
+background-color: #e8b8c1; /* 鼠标悬停时背景颜色，稍微加深 */
+}
+
+.heart-text {
+display: inline-block;
+margin: 0 2px; /* 心形和文字之间的间距 */
+color: #666; /* 使用页面文字颜色 */
+}
